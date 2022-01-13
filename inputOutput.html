@@ -1,0 +1,25 @@
+ <!-- *************************************
+ ***  Made By Yohay Hackam         ***
+ ***  mail: Yoman_321@hotmail.com  ***
+ ***  054-2616626                  ***
+ *************************************
+ HTML file - I/o basic interface demo HTML to JavaScript  
+ Exemple : 
+ On Button myInput value sent to MyHomeWork(input) Function on script file,
+ MyHomeWork(input) returns input value as jason string displayed inside paragraph myOutput-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input & Output Tamplate</title>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="Enter Input"> <br>    
+    <button onclick="myFunction(myInput.value)">Enter</button> <!-- Send input through myFunction -->
+    <p id="myOutput"></p> <!--Output paragraph-->
+    <script src="./script.js"></script> <!--Run script file only after page loaded--> 
+</body>
+</html>
